@@ -1,0 +1,53 @@
+body{
+    background-image: url("backgrund1.jpg");
+    background-attachment: fixed;
+    overflow-y: scroll;
+}
+
+section {
+    display:flex;
+}
+
+.Meny{
+    display:flex;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#Menu{
+    text-align: center;
+}
+
+a {
+    color:white;
+    padding:5px;
+}
+    li {
+        width:100%;
+        display:block;
+    }
+    li a {
+        text-decoration: none;
+        display:block;
+        background:darkgrey;
+        text-align:center;
+    }
+h2 {
+    text-align:center;
+}
+
+article {
+    margin:1em;
+    background-color:lightgrey;
+    border:1px solid black;
+    width:300px;
+}
+
+#text {
+    text-align:center;
+    position:relative;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miniräknare</title>
+
+</head>
+<body>
+    <form>
+        <input type="text" id="num1" placeholder="Ange första numret">
+        <input type="text" id="num2" placeholder="Ange andra numret">
+        <br>
+        <input type="radio" id="add" name="operator" value="add">
+        <label for="add">+</label>
+        <input type="radio" id="sub" name="operator" value="sub">
+        <label for="sub">-</label>
+        <input type="radio" id="mul" name="operator" value="mul">
+        <label for="mul">*</label>
+        <input type="radio" id="div" name="operator" value="div">
+        <label for="div">/</label>
+        <br>
+        <button type="button" id="calculate">Beräkna</button>
+    </form>
+    <p id="result"></p>
+    <script src="app.js"></script>
+</body>
+</html>

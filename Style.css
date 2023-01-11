@@ -1,0 +1,54 @@
+body{
+    background-image: url("backgrund.jpg");
+    background-attachment: fixed;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-color: black;
+    overflow-y: scroll;
+
+}
+
+header, nav, article, footer {
+    border:1px solid #f7cac9;
+    color:whitesmoke;
+    text-align:center;
+    margin:2px;
+}
+
+.Meny{
+    display:flex;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    width:100%;
+    display:block;
+}
+li a {
+    text-decoration: none;
+    display:block;
+    background:darkgrey;
+    text-align:center;
+}
+
+    a {
+        color:white;
+        padding:5px;
+    }
+header{
+    color: whitesmoke;
+    background-color: black;
+}
+section{
+    display:flex; 
+    margin:0;
+}
+nav{
+    flex:1;
+}
+article{
+    flex:3;
+}
